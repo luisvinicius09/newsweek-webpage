@@ -1,3 +1,107 @@
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+html body {
+  background-color: #f4f5f6;
+}
+
+.container-fluid {
+  background-color: #fff;
+  max-width: 1250px;
+}
+
+.versus-detail {
+  position: relative;
+}
+
+.versus-detail div{
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: 45%;
+  top: -13px;
+  position: absolute;
+}
+
+.versus-detail p {
+  position: relative;
+  top: 3px;
+  left: 6px;
+}
+
+.middle-hr {
+  background-color: #d9d9d9;
+  height: 2px;
+}
+
+.extra-hr {
+  background-color: #d9d9d9;
+  height: 4px;
+  border: none;
+}
+
+.health-card {
+  width: 100%;
+}
+
+.health-card img {
+  width: 100%;
+}
+
+.story-card img{
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.story-card p {
+  font-size: 15px;
+}
+
+.email-box {
+  background-color: #f4f5f6;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 15px;
+  max-width: 295px;
+  margin: 0 auto;
+}
+
+.n-logo {
+  max-width: 30px;
+  max-height: 30px;
+  margin: 10px;
+}
+
+.email-box input{
+  border-radius: 3px;
+  border: 1px solid #e0e1e1;
+  padding: 5px;
+}
+
+.email-box button {
+  margin-top: 5px;
+  border: none;
+  background-color: #f61602;
+  border-radius: 3px;
+}
+
+@media only screen and (min-width: 768px) {
+  .health-card {
+    width: 120px;
+  }
+  
+  .health-card img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .health-card {
+    width: 140px;
+  }
+  
+  .health-card img {
+    width: 100%;
+  }
+}
