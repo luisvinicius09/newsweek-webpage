@@ -2,7 +2,7 @@
 
 # NewsWeek Page
 
-> One paragraph statement about the project.
+> This is a copy of the [Newsweek](https://www.newsweek.com) page, made with boostrap and love <3.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,48 +10,50 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- Bootstrap
+- CSS
+- Hard work
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luisvinicius09.github.io/newsweek-webpage/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+Download the code and open it on your text editor to edit it. And for see it, open the html file on the browser.
 
 ### Prerequisites
 
-### Setup
+Text Editor
+Browser
 
 ### Install
 
+- If you want to run the linters... run 'npm install'
+
 ### Usage
+
+Open in the browser
 
 ### Run tests
 
-### Deployment
-
+- Stylelint -> 'npx stylelint "**/*.{css,scss}"'
+- Hint -> 'npx hint .'
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Vinicius Marques**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
+- Twitter: [@luisvinicius09](https://twitter.com/luisvinicius09)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-vinicius/)
 
-👤 **Author2**
+👤 **Kalu Chinasa Agu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@Nasa28](https://github.com/Nasa28)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
@@ -59,7 +61,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/luisvinicius09/newsweek-webpage/issues).
 
 ## Show your support
 
@@ -70,7 +72,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
