@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# NewsWeek Page
 
 > One paragraph statement about the project.
 
