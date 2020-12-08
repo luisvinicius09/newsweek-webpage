@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 html body {
@@ -26,16 +26,19 @@ html body {
 }
 
 .wrapper {
-  background-color: #fff
+  background-color: #fff;
 }
 
 .container-fluid {
   background-color: #fff;
   max-width: 1250px;
+  margin-top: 30px;
+  padding-top: 1px;
 }
 
 .header-navbar input {
-  max-width: 100%;
+  width: 70px;
+  /* max-width: 100%; */
 }
 
 .versus-detail div{
@@ -73,7 +76,7 @@ html body {
   width: 100%;
 }
 
-.story-card img{
+.story-card img {
   float: left;
   margin: 0 15px 0 0;
 }
@@ -84,7 +87,7 @@ html body {
 
 .email-box {
   background-color: #f4f5f6;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px;
   max-width: 295px;
   margin: 0 auto;
@@ -96,7 +99,7 @@ html body {
   margin: 10px;
 }
 
-.email-box input{
+.email-box input {
   border-radius: 3px;
   border: 1px solid #e0e1e1;
   padding: 5px;
@@ -122,7 +125,7 @@ html body {
 
   .news-wrapper .f-column {
     position: sticky;
-    top: 0;
+    top: 55px;
   }
 
   .news-wrapper .t-column {
@@ -130,15 +133,25 @@ html body {
     top: 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 992px) {
+  header .extra {
+    position: relative;
+    top: 0;
+  }
+
   .main-header {
     max-width: 1250px;
     position: relative;
-    left: -15px
+    left: -15px;
+    height: 100px;
   }
 
   .logo-container {
     position: absolute;
+    left: 37%;
+    top: 10px;
+    width: 300px;
   }
 
   .health-card {
@@ -154,4 +167,50 @@ html body {
     position: sticky;
     top: 0;
   }
+  .detail-bar::after {
+    content: "";
+    border-right: 1px solid #6c757d;
+    padding: 3px;
+  }
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.p-add {
+  display: block;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  margin-bottom: 0;
+  padding: 5px 15px 5px 15px;
+}
+
+.my-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.my-flex p:first-child {
+  padding: 2px 10px 2px 10px;
+  color: white;
+  background-color: red;
+  margin-right: 5px;
+}
+
+.my-flex p a {
+  color: red;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
