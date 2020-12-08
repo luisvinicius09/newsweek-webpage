@@ -38,22 +38,17 @@ html body {
 
 .header-navbar input {
   width: 70px;
-  /* max-width: 100%; */
 }
 
 .versus-detail div{
   background-color: black;
-  color: white;
   width: 30px;
   height: 30px;
-  border-radius: 50%;
   left: 45%;
   top: -13px;
-  position: absolute;
 }
 
 .versus-detail p {
-  position: relative;
   top: 3px;
   left: 6px;
 }
@@ -68,16 +63,7 @@ html body {
   height: 4px;
 }
 
-.health-card {
-  width: 100%;
-}
-
-.health-card img {
-  width: 100%;
-}
-
 .story-card img {
-  float: left;
   margin: 0 15px 0 0;
 }
 
@@ -113,70 +99,10 @@ html body {
 }
 
 .tiny-image {
-  float: left;
   width: 100px;
   height: 100px;
 }
 
-@media only screen and (min-width: 768px) {
-  .health-card {
-    width: 120px;
-  }
-
-  .news-wrapper .f-column {
-    position: sticky;
-    top: 55px;
-  }
-
-  .news-wrapper .t-column {
-    position: sticky;
-    top: 0;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  header .extra {
-    position: relative;
-    top: 0;
-  }
-
-  .main-header {
-    max-width: 1250px;
-    position: relative;
-    left: -15px;
-    height: 100px;
-  }
-
-  .logo-container {
-    position: absolute;
-    left: 37%;
-    top: 10px;
-    width: 300px;
-  }
-
-  .health-card {
-    width: 140px;
-  }
-
-  .news-wrapper .f-column {
-    position: sticky;
-    top: 0;
-  }
-
-  .news-wrapper .t-column {
-    position: sticky;
-    top: 0;
-  }
-  .detail-bar::after {
-    content: "";
-    border-right: 1px solid #6c757d;
-    padding: 3px;
-  }
-}
-
-.img-wrap {
-  position: relative;
-}
 
 .p-add {
   display: block;
@@ -213,4 +139,56 @@ html body {
 h3 a:hover {
   text-decoration: underline;
   text-decoration-color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  .news-wrapper .f-column {
+    position: sticky;
+    top: 55px;
+  }
+
+  .news-wrapper .t-column {
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  header .extra {
+    position: relative;
+    top: 0;
+  }
+
+  .main-header {
+    max-width: 1250px;
+    position: relative;
+    left: -15px;
+    height: 100px;
+  }
+
+  .logo-container {
+    position: absolute;
+    left: 37%;
+    top: 10px;
+    width: 300px;
+  }
+
+  .news-wrapper .f-column {
+    position: sticky;
+    top: 0;
+  }
+
+  .news-wrapper .t-column {
+    position: sticky;
+    top: 0;
+  }
+  .detail-bar::after {
+    content: "";
+    border-right: 1px solid #6c757d;
+    padding: 3px;
+  }
+}
+
+.img-wrap {
+  position: relative;
 }
