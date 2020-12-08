@@ -186,7 +186,7 @@ h3 a:hover {
     position: sticky;
     top: 0;
   }
-  
+
   .detail-bar::after {
     content: "";
     border-right: 1px solid #6c757d;
