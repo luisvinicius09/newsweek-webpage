@@ -6,6 +6,11 @@ html body {
   background-color: #f4f5f6;
 }
 
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-header {
   background-color: #f61602;
   height: 50px;
