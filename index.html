@@ -11,30 +11,34 @@
 </head>
 <body>
   <div class="container-fluid">
-
   <header>
-    <div class="container-fluid m-0 p-0">
-      <div class="main-header position-relative">
-        <img class="position-absolute d-lg-block logo"src="assets/img/main-logo.png" alt="Newsweek">
-        <div class="d-flex justify-content-between align-items-center pt-5 ml-3 mr-3">
-          <div class="date d-lg-block">
-            <div class="font-weight-bold text-white">
-              <img class="pb-2" src="assets/img/cloudy.png" alt="Weather" width="20">
-              24° California, US >
-            </div>
-            <div class="text-white">
-              Tue, Dec 08, 2020
-            </div>
+    <div class="m-0 p-0">
+      <div class="main-header d-flex justify-content-between">
+        <div class="logo-container pl-2 pt-2">
+          <img src="assets/img/main-logo.png" alt="Newsweek"> 
+        </div>
+
+        <div class="date">
+          <div>
+            <img src="assets/img/cloudy.png" alt="Weather" width="10">
+            <p>California, US</p>
           </div>
-          <div class="header-buttons">
-            <a class="text-white font-weight-bold text-decoration-none" href="#">LOGIN</a>
-            <button class="border-0 font-weight-bold pl-3 pr-3 pt-1 pb-1 ml-2">SUBSCRIBE ></button>
+
+          <div>
+            <p>Tue, Dec 08, 2020</p>
           </div>
+        </div>
+        
+        <div class="header-buttons pt-2 pr-2">
+          <a class="d-md-none" href="#"><img src="assets/img/user.png" alt="User" width="20"></a>
+          <a class="d-none d-md-inline font-weight-bold text-white pr-2">LOGIN</a>
+          <button class="font-weight-bold border-0 pl-2 pr-2 pt-1 pb-1">SUBSCRIBE ></button>
+          <a class="d-lg-none" href="#"><img src="assets/img/menu.png" alt="Menu" width="25"></a>
         </div>
       </div>
 
       <!-- Nav bar -->
-      <div class="header-navbar d-sm-none d-lg-block">
+      <div class="header-navbar d-none d-lg-block">
         <nav class="navbar navbar-light bg-white">
           <a class="navbar-brand font-weight-bold" href="#">U.S.</a>
           <a class="navbar-brand font-weight-bold" href="#">World</a>
@@ -227,7 +231,7 @@
         <div class="col-md col-lg-3">
           <div class="t-column">
             <h5 class="text-muted">THE DEBATE</h5>
-            <hr class="extra-hr">
+            <hr class="extra-hr border-0">
             <div class="d-flex align-items-center">
               <img src="assets/img/jonathan-tobin.png" alt="Jonathan Tobin">
               <div class="d-flex flex-column m-2">
@@ -235,7 +239,7 @@
                 <span>BY <a href="#">JONATHAN TOBIN</a></span>
               </div>
             </div>
-            <div class="versus-detail">
+            <div class="versus-detail position-relative">
               <div><p class="font-weight-bold">VS</p></div>
               <hr class="middle-hr">
             </div>
@@ -246,7 +250,7 @@
                 <span>BY <a href="#">SPENCER KLAVAN</a></span>
               </div>
             </div>
-            <hr class="extra-hr">
+            <hr class="extra-hr border-0">
   
             <h5 class="text-muted">OPINION</h5>
             <div class="d-flex align-items-center">

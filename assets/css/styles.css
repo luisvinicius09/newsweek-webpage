@@ -6,21 +6,21 @@ html body {
   background-color: #f4f5f6;
 }
 
-header .container-fluid {
-  max-width: 1350px;
-}
-
 .main-header {
-  background-color: #f72210;
+  background-color: #f61602;
+  height: 50px;
+  width: 100vw;
 }
 
-.main-header .logo {
-  display: none;
-  left: 33%;
-  top: 20px
+.logo-container {
+  width: 158px;
 }
 
-.header-buttons button{
+.logo-container img {
+  width: 100%;
+}
+
+.main-header button {
   background-color: #ffe400;
   border-radius: 15px;
 }
@@ -36,10 +36,6 @@ header .container-fluid {
 
 .header-navbar input {
   max-width: 100%;
-}
-
-.versus-detail {
-  position: relative;
 }
 
 .versus-detail div{
@@ -67,7 +63,6 @@ header .container-fluid {
 .extra-hr {
   background-color: #d9d9d9;
   height: 4px;
-  border: none;
 }
 
 .health-card {
@@ -137,9 +132,15 @@ header .container-fluid {
 }
 @media only screen and (min-width: 1024px) {
   .main-header {
-    height: 120px;
+    max-width: 1250px;
+    position: relative;
+    left: -15px
   }
-  
+
+  .logo-container {
+    position: absolute;
+  }
+
   .health-card {
     width: 140px;
   }
