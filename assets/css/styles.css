@@ -6,9 +6,36 @@ html body {
   background-color: #f4f5f6;
 }
 
+header .container-fluid {
+  max-width: 1350px;
+}
+
+.main-header {
+  background-color: #f72210;
+}
+
+.main-header .logo {
+  display: none;
+  left: 33%;
+  top: 20px
+}
+
+.header-buttons button{
+  background-color: #ffe400;
+  border-radius: 15px;
+}
+
+.wrapper {
+  background-color: #fff
+}
+
 .container-fluid {
   background-color: #fff;
   max-width: 1250px;
+}
+
+.header-navbar input {
+  max-width: 100%;
 }
 
 .versus-detail {
@@ -97,17 +124,33 @@ html body {
   .health-card {
     width: 120px;
   }
-  
-  .health-card img {
-    width: 100%;
+
+  .news-wrapper .f-column {
+    position: sticky;
+    top: 0;
+  }
+
+  .news-wrapper .t-column {
+    position: sticky;
+    top: 0;
   }
 }
 @media only screen and (min-width: 1024px) {
+  .main-header {
+    height: 120px;
+  }
+  
   .health-card {
     width: 140px;
   }
-  
-  .health-card img {
-    width: 100%;
+
+  .news-wrapper .f-column {
+    position: sticky;
+    top: 0;
+  }
+
+  .news-wrapper .t-column {
+    position: sticky;
+    top: 0;
   }
 }

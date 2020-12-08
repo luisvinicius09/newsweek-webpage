@@ -10,57 +10,108 @@
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 <body>
-  <header>
-    <div>
+  <div class="container-fluid">
 
+  <header>
+    <div class="container-fluid m-0 p-0">
+      <div class="main-header position-relative">
+        <img class="position-absolute d-lg-block logo"src="assets/img/main-logo.png" alt="Newsweek">
+        <div class="d-flex justify-content-between align-items-center pt-5 ml-3 mr-3">
+          <div class="date d-lg-block">
+            <div class="font-weight-bold text-white">
+              <img class="pb-2" src="assets/img/cloudy.png" alt="Weather" width="20">
+              24° California, US >
+            </div>
+            <div class="text-white">
+              Tue, Dec 08, 2020
+            </div>
+          </div>
+          <div class="header-buttons">
+            <a class="text-white font-weight-bold text-decoration-none" href="#">LOGIN</a>
+            <button class="border-0 font-weight-bold pl-3 pr-3 pt-1 pb-1 ml-2">SUBSCRIBE ></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nav bar -->
+      <div class="header-navbar d-sm-none d-lg-block">
+        <nav class="navbar navbar-light bg-white">
+          <a class="navbar-brand font-weight-bold" href="#">U.S.</a>
+          <a class="navbar-brand font-weight-bold" href="#">World</a>
+          <a class="navbar-brand font-weight-bold" href="#">Business</a>
+          <a class="navbar-brand font-weight-bold" href="#">Tech & Science</a>
+          <a class="navbar-brand font-weight-bold" href="#">Culture</a>
+          <a class="navbar-brand font-weight-bold" href="#">Newsgeek</a>
+          <a class="navbar-brand font-weight-bold" href="#">Sports</a>
+          <a class="navbar-brand font-weight-bold" href="#">Health</a>
+          <a class="navbar-brand font-weight-bold" href="#">The Debate</a>
+          <a class="navbar-brand font-weight-bold" href="#">Vantage</a>
+          <a class="navbar-brand font-weight-bold" href="#">Weather</a>
+          <div class="d-flex navbar-brand">
+            <input class="border-0" placeholder="Search">
+            <a class="mr-2 ml-3" href="#"><img src="assets/img/lupa.png" alt="magnifying glass" width="15"></a>
+          </div>
+        </nav>
+        <nav class="navbar-light bg-white ml-4 mb-4">
+          <a class="navbar-brand font-weight-bold" href="#">TRENDING</a>
+          <a class="navbar-brand text-muted" href="#">JOE BIDEN</a>
+          <a class="navbar-brand text-muted" href="#">DONALD TRUMP</a>
+          <a class="navbar-brand text-muted" href="#">2020 ELECTION</a>
+          <a class="navbar-brand text-muted" href="#">CORONAVIRUS</a>
+          <a class="navbar-brand text-muted" href="#">STIMULUS PACKAGE</a>
+        </nav>
+      </div>
     </div>
   </header>
+
   <main class="container-fluid">
-    <div >
+    <div class="news-wrapper">
       <div class="row">
         <!-- Left column -->
-        <div id="f-column" class="col-md-5 col-lg-4">
-          <h5 class="text-muted">FEATURED STORIES</h5>
-          <div class="mb-3" style="width: 100%;">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+        <div class="col-md-5 col-lg-4">
+          <div class="f-column">
+            <h5 class="text-muted">FEATURED STORIES</h5>
+            <div class="mb-3" style="width: 100%;">
+              <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
+              <div>
+                <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
+                <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+              </div>
             </div>
-          </div>
-          <div class="mb-3" style="width: 100%;">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+            <div class="mb-3" style="width: 100%;">
+              <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
+              <div>
+                <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
+                <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+              </div>
             </div>
-          </div>
-          <div class="mb-3" style="width: 100%;">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+            <div class="mb-3" style="width: 100%;">
+              <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
+              <div>
+                <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
+                <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+              </div>
             </div>
-          </div>
-          <div class="mb-3" style="width: 100%;">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+            <div class="mb-3" style="width: 100%;">
+              <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
+              <div>
+                <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
+                <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+              </div>
             </div>
-          </div>
-          <div class="mb-3" style="width: 100%;">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+            <div class="mb-3" style="width: 100%;">
+              <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
+              <div>
+                <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
+                <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
+              </div>
             </div>
           </div>
 
         </div>
 
         <!-- Middle column -->
-        <div id="s-column" class="col-md-7 col-lg-5">
+        <div class="col-md-7 col-lg-5">
           <h5 class="text-muted">TOP STORY</h5>
           <div class="" style="width: 100%;">
             <img class="card-img-top" src="./assets/img/stimulus-deal-check-congress-covid-jobs-unemployment.jpg" alt="Card image cap">
@@ -144,100 +195,126 @@
             <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
             <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
           </div>
+          <div class="story-card">
+            <img src="assets/img/jon-ossoff.jpg" alt="Jon Ossoff">
+            <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
+            <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
+          </div>
+          <div class="story-card">
+            <img src="assets/img/jon-ossoff.jpg" alt="Jon Ossoff">
+            <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
+            <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
+          </div>
+          <div class="story-card">
+            <img src="assets/img/jon-ossoff.jpg" alt="Jon Ossoff">
+            <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
+            <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
+          </div>
+          <div class="story-card">
+            <img src="assets/img/jon-ossoff.jpg" alt="Jon Ossoff">
+            <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
+            <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
+          </div>
+          <div class="story-card">
+            <img src="assets/img/jon-ossoff.jpg" alt="Jon Ossoff">
+            <h6 class="font-weight-bold">Jon Ossoff Tweets Chicken Emoji after David Perdue Skips GA Senate Debate</h6>
+            <p>The Democrat candidate's "coward" tweet mocking the Georgia incumbent has been shared more than 8,000 times.</p>
+          </div>
 
-          
         </div>
 
         <!-- Right column -->
-        <div id="t-column" class="col-md col-lg-3">
-          <h5 class="text-muted">THE DEBATE</h5>
-          <hr class="extra-hr">
-          <div class="d-flex align-items-center">
-            <img src="assets/img/jonathan-tobin.png" alt="Jonathan Tobin">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Should Trump Concede? Yes</a>
-              <span>BY <a href="#">JONATHAN TOBIN</a></span>
+        <div class="col-md col-lg-3">
+          <div class="t-column">
+            <h5 class="text-muted">THE DEBATE</h5>
+            <hr class="extra-hr">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/jonathan-tobin.png" alt="Jonathan Tobin">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Should Trump Concede? Yes</a>
+                <span>BY <a href="#">JONATHAN TOBIN</a></span>
+              </div>
             </div>
-          </div>
-          <div class="versus-detail">
-            <div><p class="font-weight-bold">VS</p></div>
-            <hr class="middle-hr">
-          </div>
-          <div class="d-flex flex-row-reverse justify-content-between align-items-center">
-            <img src="assets/img/spencer-klavan.png" alt="Spencer Klavan" height="100%">
-            <div class="d-flex flex-column">
-              <a href="#">Should Trump Concede? Not Yet</a>
-              <span>BY <a href="#">SPENCER KLAVAN</a></span>
+            <div class="versus-detail">
+              <div><p class="font-weight-bold">VS</p></div>
+              <hr class="middle-hr">
             </div>
-          </div>
-          <hr class="extra-hr">
-
-          <h5 class="text-muted">OPINION</h5>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <div class="d-flex flex-row-reverse justify-content-between align-items-center">
+              <img src="assets/img/spencer-klavan.png" alt="Spencer Klavan" height="100%">
+              <div class="d-flex flex-column">
+                <a href="#">Should Trump Concede? Not Yet</a>
+                <span>BY <a href="#">SPENCER KLAVAN</a></span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr class="extra-hr">
+  
+            <h5 class="text-muted">OPINION</h5>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
-            <div class="d-flex flex-column m-2">
-              <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
-              <span>BY GORDON G. CHANG</span>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-          </div>
-          <hr>
-
-          <div class="email-box">
-            <div class="d-flex">
-              <img class="n-logo" src="assets/img/Testing.png" alt="N Logo">
-              <h5 class="font-weight-bold">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+            <hr>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/gordon-chang.png" alt="Gordon Chang">
+              <div class="d-flex flex-column m-2">
+                <a href="#">Is the U.S. Justice Department Surrendering To China?</a>
+                <span>BY GORDON G. CHANG</span>
+              </div>
             </div>
-            <div class="d-flex flex-column">
-              <input type="email" placeholder="Email address">
-              <button>FREE SIGN UP ></button>
+            <hr>
+  
+            <div class="email-box">
+              <div class="d-flex">
+                <img class="n-logo" src="assets/img/Testing.png" alt="N Logo">
+                <h5 class="font-weight-bold">START YOUR DAY WITH OUR TOP 5 ARTICLES</h5>
+              </div>
+              <div class="d-flex flex-column">
+                <input type="email" placeholder="Email address">
+                <button>FREE SIGN UP ></button>
+              </div>
             </div>
           </div>
         </div>
@@ -247,77 +324,7 @@
     <div>
 
     </div>
-    <!-- Editor's Picks -->
-    <div>
-      <div class="d-flex justify-content-center">
-        <img class="n-logo" src="assets/img/Testing.png" alt="N Logo">
-        <h4 class="font-weight-bold mt-2">EDITOR'S PICKS</h4>
-      </div>
-      <hr>
-      <div class="container">
-        <div class="row">
 
-          <div class="col-md-6 col-lg mb-3" >
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg mb-3" >
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md col-lg mb-3">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md col-lg mb-3">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg mb-3" >
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg mb-3" >
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md col-lg mb-3">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-          <div class="col-md col-lg mb-3">
-            <img class="card-img-top" src="./assets/img/anthony-fauci-coronavirus.jpg" alt="Card image cap">
-            <div>
-              <h5 class="card-title font-weight-bold mt-1">Fauci Not Surprised America's Seeing 200,000 New Cases of Coronavirus a Day</h5>
-              <p class="card-text">In June, Fauci said it was possible America could reach 100,000 cases a day, but he called America doubling that amount "predictable."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- News section -->
     <div>
       <hr>
@@ -355,5 +362,7 @@
 
     </div>
   </footer>
+</div>
+
 </body>
 </html>
