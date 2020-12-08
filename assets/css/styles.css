@@ -6,6 +6,11 @@ html body {
   background-color: #f4f5f6;
 }
 
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
 .main-header {
   background-color: #f61602;
   height: 50px;
@@ -40,7 +45,7 @@ html body {
   width: 70px;
 }
 
-.versus-detail div{
+.versus-detail div {
   background-color: black;
   width: 30px;
   height: 30px;
@@ -102,7 +107,6 @@ html body {
   width: 100px;
   height: 100px;
 }
-
 
 .p-add {
   display: block;
@@ -182,6 +186,7 @@ h3 a:hover {
     position: sticky;
     top: 0;
   }
+  
   .detail-bar::after {
     content: "";
     border-right: 1px solid #6c757d;
