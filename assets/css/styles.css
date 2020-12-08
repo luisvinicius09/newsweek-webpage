@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 html body {
@@ -17,16 +17,16 @@ header .container-fluid {
 .main-header .logo {
   display: none;
   left: 33%;
-  top: 20px
+  top: 20px;
 }
 
-.header-buttons button{
+.header-buttons button {
   background-color: #ffe400;
   border-radius: 15px;
 }
 
 .wrapper {
-  background-color: #fff
+  background-color: #fff;
 }
 
 .container-fluid {
@@ -42,7 +42,7 @@ header .container-fluid {
   position: relative;
 }
 
-.versus-detail div{
+.versus-detail div {
   background-color: black;
   color: white;
   width: 30px;
@@ -78,7 +78,7 @@ header .container-fluid {
   width: 100%;
 }
 
-.story-card img{
+.story-card img {
   float: left;
   margin: 0 15px 0 0;
 }
@@ -89,7 +89,7 @@ header .container-fluid {
 
 .email-box {
   background-color: #f4f5f6;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 15px;
   max-width: 295px;
   margin: 0 auto;
@@ -101,7 +101,7 @@ header .container-fluid {
   margin: 10px;
 }
 
-.email-box input{
+.email-box input {
   border-radius: 3px;
   border: 1px solid #e0e1e1;
   padding: 5px;
@@ -135,11 +135,12 @@ header .container-fluid {
     top: 0;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .main-header {
     height: 120px;
   }
-  
+
   .health-card {
     width: 140px;
   }
@@ -155,14 +156,14 @@ header .container-fluid {
   }
 }
 
-.img-wrap{
+.img-wrap {
   position: relative;
-
 }
+
 .p-add {
   display: block;
   color: #f72210;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -187,9 +188,10 @@ header .container-fluid {
 }
 
 .my-flex p a {
-color: red;
-text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
+
 h3 a:hover {
   text-decoration: underline;
   text-decoration-color: red;
