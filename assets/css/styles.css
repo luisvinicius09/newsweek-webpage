@@ -262,7 +262,8 @@ h4 a:hover {
   }
 
   .newsletter-img img {
-    width: 190px;
+    min-width: 150px;
+    max-width: 180px;
     height: 301px;
   }
 }
