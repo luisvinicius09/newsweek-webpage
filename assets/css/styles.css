@@ -184,8 +184,8 @@ h4 a:hover {
   font-size: 20px;
 }
 
-.magazine span:first-child{
-  background-color: rgb(244,63,43);
+.magazine span:first-child {
+  background-color: rgb(244, 63, 43);
   font-weight: 800;
   padding-left: 10px;
   margin-right: 5px;
@@ -198,7 +198,7 @@ h4 a:hover {
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
     position: sticky;
-    top: 0px;
+    top: 0;
   }
 
   .news-wrapper .t-column {
@@ -209,7 +209,7 @@ h4 a:hover {
   .covers-wrapper {
     display: inline;
   }
-  
+
   .cover-magazine {
     left: 60px;
     top: 50px;
@@ -260,7 +260,7 @@ h4 a:hover {
     border-right: 1px solid #6c757d;
     padding: 3px;
   }
-  
+
   .newsletter-img img {
     width: 190px;
     height: 301px;
