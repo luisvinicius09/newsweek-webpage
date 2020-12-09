@@ -145,6 +145,16 @@ h3 a:hover {
   text-decoration-color: red;
 }
 
+h5 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
     position: sticky;
@@ -186,7 +196,7 @@ h3 a:hover {
     position: sticky;
     top: 0;
   }
-  
+
   .detail-bar::after {
     content: "";
     border-right: 1px solid #6c757d;
@@ -196,4 +206,20 @@ h3 a:hover {
 
 .img-wrap {
   position: relative;
+}
+
+.magazine {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.magazine span:first-child{
+  background-color: rgb(244,63,43);
+  font-weight: 800;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.my-magazine {
+  margin-top: 0;
 }
