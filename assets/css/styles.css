@@ -168,6 +168,14 @@ h3 a:hover {
   object-fit: cover;
   width: 100%;
   height: 170px;
+h5 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 @media only screen and (min-width: 768px) {
@@ -244,4 +252,20 @@ h3 a:hover {
 
 .img-wrap {
   position: relative;
+}
+
+.magazine {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.magazine span:first-child{
+  background-color: rgb(244,63,43);
+  font-weight: 800;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.my-magazine {
+  margin-top: 0;
 }
