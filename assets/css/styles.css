@@ -11,14 +11,6 @@ footer a {
   color: black;
 }
 
-.f-column {
-  order: 2
-}
-
-.s-column {
-  order: 1;
-}
-
 .main-header {
   background-color: #f61602;
   height: 50px;
