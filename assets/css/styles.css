@@ -195,6 +195,21 @@ h4 a:hover {
   margin-top: 0;
 }
 
+.newsletter-buttons {
+  margin-bottom: 10px;
+}
+
+.newsletter-buttons input{
+  width: 100px;
+  margin-right: 5px;
+}
+
+.extra-detail::after {
+  content: "";
+  border-right: 1px solid grey;
+  margin: 3px;
+}
+
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
     position: sticky;
