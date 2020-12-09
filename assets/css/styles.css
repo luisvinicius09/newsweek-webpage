@@ -145,9 +145,29 @@ h3 a:hover {
   text-decoration-color: red;
 }
 
-h5 a:hover {
-  text-decoration: underline;
-  text-decoration-color: red;
+.covers-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cover-magazine {
+  left: 40%;
+  top: 30px;
+}
+
+.subs-block {
+  background-color: #f4f5f6;
+}
+
+.text-wrapper {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.newsletter-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 170px;
 }
 
 h4 a:hover {
@@ -155,15 +175,53 @@ h4 a:hover {
   text-decoration-color: red;
 }
 
+.img-wrap {
+  position: relative;
+}
+
+.magazine {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.magazine span:first-child{
+  background-color: rgb(244,63,43);
+  font-weight: 800;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.my-magazine {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
     position: sticky;
-    top: 55px;
+    top: 0px;
   }
 
   .news-wrapper .t-column {
     position: sticky;
     top: 0;
+  }
+
+  .covers-wrapper {
+    display: inline;
+  }
+  
+  .cover-magazine {
+    left: 60px;
+    top: 50px;
+  }
+
+  .text-wrapper {
+    text-align: start;
+  }
+
+  .newsletter-img img {
+    width: 100%;
+    height: 200px;
   }
 }
 
@@ -202,24 +260,9 @@ h4 a:hover {
     border-right: 1px solid #6c757d;
     padding: 3px;
   }
-}
-
-.img-wrap {
-  position: relative;
-}
-
-.magazine {
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-.magazine span:first-child{
-  background-color: rgb(244,63,43);
-  font-weight: 800;
-  padding-left: 10px;
-  margin-right: 5px;
-}
-
-.my-magazine {
-  margin-top: 0;
+  
+  .newsletter-img img {
+    width: 190px;
+    height: 301px;
+  }
 }
