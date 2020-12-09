@@ -175,6 +175,26 @@ h4 a:hover {
   text-decoration-color: red;
 }
 
+.img-wrap {
+  position: relative;
+}
+
+.magazine {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.magazine span:first-child{
+  background-color: rgb(244,63,43);
+  font-weight: 800;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.my-magazine {
+  margin-top: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
     position: sticky;
@@ -242,27 +262,7 @@ h4 a:hover {
   }
   
   .newsletter-img img {
-    width: 190px%;
+    width: 190px;
     height: 301px;
   }
-}
-
-.img-wrap {
-  position: relative;
-}
-
-.magazine {
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-.magazine span:first-child{
-  background-color: rgb(244,63,43);
-  font-weight: 800;
-  padding-left: 10px;
-  margin-right: 5px;
-}
-
-.my-magazine {
-  margin-top: 0;
 }
