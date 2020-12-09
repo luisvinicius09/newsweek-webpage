@@ -30,12 +30,12 @@ footer a {
   border-radius: 15px;
 }
 
-.wrapper {
+.wrapper,
+.container-fluid {
   background-color: #fff;
 }
 
 .container-fluid {
-  background-color: #fff;
   max-width: 1250px;
   margin-top: 30px;
   padding-top: 1px;
@@ -58,13 +58,16 @@ footer a {
   left: 6px;
 }
 
-.middle-hr {
+.middle-hr,
+.extra-hr {
   background-color: #d9d9d9;
+}
+
+.middle-hr {
   height: 2px;
 }
 
 .extra-hr {
-  background-color: #d9d9d9;
   height: 4px;
 }
 
@@ -76,7 +79,7 @@ footer a {
   font-size: 15px;
 }
 
-.opinion-section span{
+.opinion-section span {
   font-size: smaller;
 }
 
@@ -113,10 +116,8 @@ footer a {
 }
 
 .p-add {
-  display: block;
   color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
-  position: absolute;
   bottom: 0;
   left: 0;
   z-index: 1;
@@ -125,7 +126,6 @@ footer a {
 }
 
 .my-flex {
-  display: flex;
   justify-content: flex-start;
   align-items: center;
   font-weight: 800;
@@ -139,7 +139,7 @@ footer a {
   margin-right: 5px;
 }
 
-.my-flex p a {
+.link {
   color: red;
   text-decoration: none;
 }
@@ -203,7 +203,7 @@ h4 a:hover {
   margin-bottom: 10px;
 }
 
-.newsletter-buttons input{
+.newsletter-buttons input {
   width: 100px;
   margin-right: 5px;
 }
