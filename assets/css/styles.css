@@ -11,6 +11,15 @@ footer a {
   color: black;
 }
 
+article {
+  transition: opacity 0.3s;
+}
+
+article:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
 .main-header {
   background-color: #f61602;
   height: 50px;
@@ -223,6 +232,7 @@ h4 a:hover {
   opacity: 80%;
   transform: scale(1.1);
 }
+
 
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
