@@ -20,6 +20,16 @@ article:hover {
   opacity: 80%;
 }
 
+button {
+  background-color: #f61602;
+  transition: opacity 0.2s, transform 0.4s;;
+}
+
+button:hover {
+  opacity: 80%;
+  transform: scale(1.1);
+}
+
 .main-header {
   background-color: #f61602;
   height: 50px;
@@ -222,17 +232,6 @@ h4 a:hover {
   border-right: 1px solid grey;
   margin: 3px;
 }
-
-.subs-button {
-  background-color: #f61602;
-  transition: opacity 0.2s, transform 0.4s;;
-}
-
-.subs-button:hover {
-  opacity: 80%;
-  transform: scale(1.1);
-}
-
 
 @media only screen and (min-width: 768px) {
   .news-wrapper .f-column {
