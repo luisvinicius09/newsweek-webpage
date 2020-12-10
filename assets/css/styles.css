@@ -22,7 +22,7 @@ article:hover {
 
 button {
   background-color: #f61602;
-  transition: opacity 0.2s, transform 0.4s;;
+  transition: opacity 0.2s, transform 0.4s;
 }
 
 button:hover {
@@ -50,9 +50,9 @@ button:hover {
 
 @keyframes rotation {
   0% {
-    transform: scale(0.9)
-  } 
-  
+    transform: scale(0.9);
+  }
+
   25% {
     transform: scale(1.1);
   }
