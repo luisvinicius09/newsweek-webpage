@@ -44,6 +44,24 @@ button:hover {
   width: 100%;
 }
 
+.main-logo {
+  animation: rotation 0.8s infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: scale(0.9)
+  } 
+  
+  25% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 .main-header button {
   background-color: #ffe400;
   border-radius: 15px;
