@@ -21,29 +21,37 @@ footer a {
   width: 158px;
 }
 
-.logo-container img{
+.logo-container img {
   width: 100%;
-  transition-property: border-radius, width,;
+  transition-property: border-radius, width;
   transition-duration: 3s;
 }
 
 .logo-container img:hover {
   border-radius: 20%;
-  width:450px;
+  width: 450px;
 }
 
-.login{
+.login {
   color: white;
   animation-name: navbar-animation;
   animation-duration: 3s;
   animation-iteration-count: 20;
 }
 
-@keyframes navbar-animation{
-  0% {background-color:white; }
-  25% {background-color:blue; }
-  50% {background-color:green; }
-  100% {background-color:red; }
+@keyframes navbar-animation {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .main-header button {
