@@ -23,6 +23,13 @@ footer a {
 
 .logo-container img {
   width: 100%;
+  transition-property: border-radius, width,;
+  transition-duration: 3s;
+}
+
+.logo-container img:hover {
+  border-radius: 20%;
+  width:450px;
 }
 
 .main-header button {
